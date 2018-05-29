@@ -1,0 +1,226 @@
+Vla ce que j'ai codé juste pour les regions&terris en dur et definir leurs elements ( j'ai mm pas mit les fonctions)
+Il manque environ ... Aller 120+ lignes à coder juste pour finir ça.
+
+// Sholazar' Territories
+		Territory territory1 = new Territory("The Nexus",false,"1.png",1);
+		Territory territory2 = new Territory("Warsong Hold",false,"2.png",2);
+		Territory territory3 = new Territory("Vaillance Keep",true,"3.png",3);
+		Territory territory4 = new Territory("Amber ledge",false,"4.png",4);
+		Territory territory5 = new Territory("Mosslight Pillar",false,"5.png",5);
+		Territory territory6 = new Territory("Maker's Perch",false,"6.png",6);
+		Territory territory7 = new Territory("Glimmering Pillar",false,"7.png",7);
+		Territory territory8 = new Territory("Maker's Overlook",false,"8.png",8);
+		Territory territory9 = new Territory("Skyreach Pillar",false,"9.png",9);
+		Territory territory10 = new Territory("Taunka'l Village",false,"10.png",10);
+		Territory territory11 = new Territory("En'Kilah",false,"11.png",11);
+		Territory[] array1 = new Territory[11];
+		array1[0] = territory1;
+		array1[1] = territory2;
+		array1[2] = territory3;
+		array1[3] = territory4;
+		array1[4] = territory5;
+		array1[5] = territory6;
+		array1[6] = territory7;
+		array1[7] = territory8;
+		array1[8] = territory9;
+		array1[9] = territory10;
+		array1[10] = territory11;
+		Region Sholazar = new Region("Sholazar",array1, 11);
+		Sholazar.setRegion();
+		
+		// Dragonblight' Territories
+		Territory territory12 = new Territory("Wintergrasp",false,"12.png",12);
+		Territory territory13 = new Territory("Azjol'Nerub",false,"13.png",13);
+		Territory territory14 = new Territory("Agmar's Hammer",false,"14.png",14);
+		Territory territory15 = new Territory("Wyrmrest Temple",false,"15.png",15);
+		Territory territory16 = new Territory("Angrathar",false,"16.png",16);
+		Territory territory17 = new Territory("Dalaran",false,"17.png",17);
+		Territory territory18 = new Territory("Cristalsong Forest",false,"18.png",18);
+		Territory territory19 = new Territory("Naxxramas",false,"19.png",19);
+		Territory territory20 = new Territory("New Hearthglen",false,"20.png",20);
+		Territory territory21 = new Territory("Conquest Hold",true,"21.png",21);
+		Territory territory22 = new Territory("Drak'Tharon Keep",false,"22.png",22);
+		
+		Territory[] array2 = new Territory[11];
+		array2[0] = territory12;
+		array2[1] = territory13;
+		array2[2] = territory14;
+		array2[3] = territory15;
+		array2[4] = territory16;
+		array2[5] = territory17;
+		array2[6] = territory18;
+		array2[7] = territory19;
+		array2[8] = territory20;
+		array2[9] = territory21;
+		array2[10] = territory22;
+		Region Dragonblight = new Region("Dragonblight",array2, 11);
+		Dragonblight.setRegion();
+		
+		// Zul'Drak' Territories
+		Territory territory23 = new Territory("Zeramas",false,"23.png",23);
+		Territory territory24 = new Territory("Argent Stand",false,"24.png",24);
+		Territory territory25 = new Territory("Grizzlemaw",false,"25.png",25);
+		Territory territory26 = new Territory("Gjalerbron",false,"26.png",26);
+		Territory territory27 = new Territory("Westguard Keep",false,"27.png",27);
+		Territory territory28 = new Territory("New Agamand",false,"28.png",28);
+		Territory territory29 = new Territory("Nifflevar",false,"29.png",29);
+		Territory territory30 = new Territory("Utgarde Keep",false,"30.png",30);
+		Territory territory31 = new Territory("Dun Argol",false,"31.png",31);
+		Territory territory32 = new Territory("Bloodmoon Isle",true,"32.png",32);
+		Territory territory33 = new Territory("Kalramas",false,"33.png",33);
+		Territory territory34 = new Territory("Gundrak",false,"34.png",34);
+		Territory territory35 = new Territory("Altar of Rhunok",false,"35.png",35);
+		
+		Territory[] array3 = new Territory[13];
+		array3[0] = territory23;
+		array3[1] = territory24;
+		array3[2] = territory25;
+		array3[3] = territory26;
+		array3[4] = territory27;
+		array3[5] = territory28;
+		array3[6] = territory29;
+		array3[7] = territory30;
+		array3[8] = territory31;
+		array3[9] = territory32;
+		array3[10] = territory33;
+		array3[11] = territory34;
+		array3[12] = territory35;
+		Region ZulDrak = new Region("ZulDrak",array3, 13);
+		ZulDrak.setRegion();
+		
+		// Icecrown' Territories
+		Territory territory36 = new Territory("Thunderfall",false,"36.png",36);
+		Territory territory37 = new Territory("Terrace of the Makers",false,"37.png",37);
+		Territory territory38 = new Territory("Ulduar",false,"38.png",38);
+		Territory territory39 = new Territory("Grom'arsh",false,"39.png",39);
+		Territory territory40 = new Territory("Frosthold",false,"40.png",40);
+		Territory territory41 = new Territory("Argent Vanguard",false,"41.png",41);
+		Territory territory42 = new Territory("Ymirheim",false,"42.png",42);
+		Territory territory43 = new Territory("Syndragosa's Fall",false,"43.png",43);
+		Territory territory44 = new Territory("Shadow Vault",false,"44.png",44);
+		Territory territory45 = new Territory("Fleshwerks",false,"45.png",45);
+		Territory territory46 = new Territory("Onslaught Harbor",true,"46.png",46);
+		Territory territory47 = new Territory("Icecrown Citadel",false,"47.png",47);
+		
+		Territory[] array4 = new Territory[12];
+		array4[0] = territory36;
+		array4[1] = territory37;
+		array4[2] = territory38;
+		array4[3] = territory39;
+		array4[4] = territory40;
+		array4[5] = territory41;
+		array4[6] = territory42;
+		array4[7] = territory43;
+		array4[8] = territory44;
+		array4[9] = territory45;
+		array4[10] = territory46;
+		array4[11] = territory47;
+		Region Icecrown = new Region("Icecrown",array4, 11);
+		Icecrown.setRegion();
+
+		// Neighbours Initialisation
+		Territory[] arrayterri1 = new Territory[2];
+		arrayterri1[0] = territory2;
+		arrayterri1[1] = territory4;
+		territory1.Neighbour = arrayterri1;
+		
+		Territory[] arrayterri2 = new Territory[3];
+		arrayterri1[0] = territory1;
+		arrayterri1[1] = territory3;
+		arrayterri1[2] = territory4;
+		territory2.Neighbour = arrayterri2;
+		
+		Territory[] arrayterri3 = new Territory[7];
+		arrayterri3[0] = territory2;
+		arrayterri3[1] = territory4;
+		arrayterri3[2] = territory10;
+		arrayterri3[3] = territory11;
+		arrayterri3[4] = territory21;
+		arrayterri3[5] = territory32;
+		arrayterri3[6] = territory46;
+		territory3.Neighbour = arrayterri3;
+		
+		Territory[] arrayterri4 = new Territory[5];
+		arrayterri4[0] = territory1;
+		arrayterri4[1] = territory2;
+		arrayterri4[2] = territory3;
+		arrayterri4[3] = territory5;
+		arrayterri4[4] = territory10;
+		territory4.Neighbour = arrayterri4;
+		
+		Territory[] arrayterri5 = new Territory[3];
+		arrayterri5[0] = territory4;
+		arrayterri5[1] = territory6;
+		arrayterri5[2] = territory9;
+		territory5.Neighbour = arrayterri5;
+		
+		Territory[] arrayterri6 = new Territory[3];
+		arrayterri6[0] = territory5;
+		arrayterri6[1] = territory7;
+		arrayterri6[2] = territory9;
+		territory6.Neighbour = arrayterri6;
+		
+		Territory[] arrayterri7 = new Territory[3];
+		arrayterri7[0] = territory6;
+		arrayterri7[1] = territory8;
+		arrayterri7[0] = territory9;
+		territory7.Neighbour = arrayterri7;
+		
+		Territory[] arrayterri8 = new Territory[6];		
+		arrayterri8[0] = territory7;
+		arrayterri8[1] = territory9;
+		arrayterri8[2] = territory10;
+		arrayterri8[3] = territory12;
+		arrayterri8[4] = territory45;
+		arrayterri8[5] = territory47;
+		territory8.Neighbour = arrayterri8;
+		
+		Territory[] arrayterri9 = new Territory[5];		
+		arrayterri9[0] = territory5;
+		arrayterri9[1] = territory6;
+		arrayterri9[2] = territory7;
+		arrayterri9[3] = territory8;
+		arrayterri9[4] = territory10;
+		territory9.Neighbour = arrayterri9;
+		
+		Territory[] arrayterri10 = new Territory[6];		
+		arrayterri10[0] = territory3;
+		arrayterri10[1] = territory4;
+		arrayterri10[2] = territory5;
+		arrayterri10[3] = territory9;
+		arrayterri10[4] = territory11;
+		arrayterri10[5] = territory12;
+		territory10.Neighbour = arrayterri10;
+		
+		Territory[] arrayterri11 = new Territory[4];		
+		arrayterri11[0] = territory3;
+		arrayterri11[1] = territory10;
+		arrayterri11[2] = territory12;
+		arrayterri11[3] = territory13;
+		territory11.Neighbour = arrayterri11;
+		
+		Territory[] arrayterri12 = new Territory[4];		
+		arrayterri12[0] = territory8;
+		arrayterri12[1] = territory10;
+		arrayterri12[2] = territory13;
+		arrayterri12[3] = territory16;
+		territory12.Neighbour = arrayterri12;
+		
+		Territory[] arrayterri13 = new Territory[2];		
+		arrayterri13[0] = territory11;
+		arrayterri13[1] = territory14;
+		territory13.Neighbour = arrayterri13;
+		
+		Territory[] arrayterri14 = new Territory[4];		
+		arrayterri14[0] = territory1;
+		arrayterri14[1] = territory3;
+		arrayterri14[2] = territory15;
+		arrayterri14[3] = territory16;
+		territory14.Neighbour = arrayterri14;
+		
+		Territory[] arrayterri15 = new Territory[4];		
+		arrayterri15[0] = territory14;
+		arrayterri15[1] = territory16;
+		arrayterri15[2] = territory19;
+		arrayterri15[3] = territory20;
+		territory15.Neighbour = arrayterri15;
