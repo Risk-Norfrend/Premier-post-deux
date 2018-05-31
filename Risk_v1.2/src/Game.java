@@ -552,6 +552,16 @@ public class Game extends BasicGame {
 	    int ypos = Mouse.getY();
 	    Territory root = selectTerritory(xpos, ypos, this.map.allterritory);
 	    g.drawString(root.name, 50,50);
+	    String xmot = ""+xpos;
+    	
+    	String ymot = ""+ypos;
+    	g.drawString(xmot, 200, 100);
+    	g.drawString(ymot, 250, 100);
+	    if(root == this.map.allterritory[0]) {
+	    	g.drawString("Victroire !!!!", 150,50);
+	    	
+	    }
+	    // ça deconne completement, rip moi
 		
 		
 	}
@@ -577,191 +587,191 @@ public class Game extends BasicGame {
 		Territory empty = new Territory(" ",false,"0.png",0);
 		Territory returnTerri = empty;
 		
-		if(x<664 && x>565 && y<632 && y>538) {
+		if(x<664 && x>565 && y<437 && y>343) {
 			returnTerri =  AllTerritoryArray[0];
 		}
 		
-		if(x>625 && y>651 && x<733 && y<765) {
+		if(x>625 && y>210 && x<733 && y<324) {
 			returnTerri =  AllTerritoryArray[1];
 		}
 		
-		if(x>743 && y>648 && x<877 && y<821) {
+		if(x>743 && y>154 && x<877 && y<327) {
 			returnTerri =  AllTerritoryArray[2];
 		}
 		
-		if(x>712 && y>512 && x<790 && y<630) {
+		if(x>712 && y>345 && x<790 && y<463) {
 			returnTerri =  AllTerritoryArray[3];
 		}
 		
-		if(x>714 && y>436 && x<789 && y<495) {
+		if(x>714 && y>480 && x<789 && y<539) {
 			returnTerri =  AllTerritoryArray[4];
 		}
 		
-		if(x>709 && y>372 && x<790 && y<423) {
+		if(x>709 && y>552 && x<790 && y<603) {
 			returnTerri =  AllTerritoryArray[5];
 		}
 		
-		if(x>801 && y>302 && x<872 && y<381) {
+		if(x>801 && y>594 && x<872 && y<673) {
 			returnTerri =  AllTerritoryArray[6];
 		}
 		
-		if(x>878 && y>351 && x<949 && y<438) {
+		if(x>878 && y>537 && x<949 && y<624) {
 			returnTerri =  AllTerritoryArray[7];
 		}
 		
-		if(x>805 && y>405 && x<865 && y<501) {
+		if(x>805 && y>474 && x<865 && y<570) {
 			returnTerri =  AllTerritoryArray[8];
 		}
 		
-		if(x>817 && y>514 && x<887 && y<628) {
+		if(x>817 && y>347 && x<887 && y<461) {
 			returnTerri =  AllTerritoryArray[9];
 		}
 		
-		if(x>901 && y>566 && x<988 && y<649) {
+		if(x>901 && y>326 && x<988 && y<409) {
 			returnTerri =  AllTerritoryArray[10];
 		}
 		
-		if(x>930 && y>467 && x<1090 && y<536) {
+		if(x>930 && y>439 && x<1090 && y<508) {
 			returnTerri =  AllTerritoryArray[11];
 		}
 		
-		if(x>1007 && y>570 && x<1099 && y<695) {
+		if(x>1007 && y>280 && x<1099 && y<405) {
 			returnTerri =  AllTerritoryArray[12];
 		}
 		
-		if(x>1112 && y>567 && x<1193 && y<685) {
+		if(x>1112 && y>290 && x<1193 && y<408) {
 			returnTerri =  AllTerritoryArray[13];
 		}
 		
-		if(x>1210 && y>562 && x<1293 && y<680) {
+		if(x>1210 && y>295 && x<1293 && y<413) {
 			returnTerri =  AllTerritoryArray[14];
 		}
 		
-		if(x>1116 && y>472 && x<1294 && y<545) {
+		if(x>1116 && y>430 && x<1294 && y<503) {
 			returnTerri =  AllTerritoryArray[15];
 		}
 		
-		if(x>1174 && y>379 && x<1279 && y<452) {
+		if(x>1174 && y>523 && x<1279 && y<596) {
 			returnTerri =  AllTerritoryArray[16];
 		}
 		
-		if(x>1300 && y>177 && x<1400 && y<473) {
+		if(x>1300 && y>502 && x<1400 && y<598) {
 			returnTerri =  AllTerritoryArray[17];
 		}
 		
-		if(x>1317 && y>494 && x<1420 && y<606) {
+		if(x>1317 && y>369 && x<1420 && y<481) {
 			returnTerri =  AllTerritoryArray[18];
 		}
 		
-		if(x>1309 && y>620 && x<1426 && y<729) {
+		if(x>1309 && y>246 && x<1426 && y<355) {
 			returnTerri =  AllTerritoryArray[19];
 		}
 		
-		if(x>1440 && y>607 && x<1533 && y<721) {
+		if(x>1440 && y>254 && x<1533 && y<368) {
 			returnTerri =  AllTerritoryArray[20];
 		}
 		
-		if(x>1440 && y>496 && x<1520 && y<591) {
+		if(x>1440 && y>384 && x<1520 && y<479) {
 			returnTerri =  AllTerritoryArray[21];
 		}
 		
-		if(x>1419 && y>376 && x<1503 && y<473) {
+		if(x>1419 && y>502 && x<1503 && y<599) {
 			returnTerri =  AllTerritoryArray[22];
 		}
 		
-		if(x>1521 && y>395 && x<1609 && y<493) {
+		if(x>1521 && y>482 && x<1609 && y<580) {
 			returnTerri =  AllTerritoryArray[23];
 		}
 		
-		if(x>1553 && y>524 && x<1665 && y<596) {
+		if(x>1553 && y>379 && x<1665 && y<451) {
 			returnTerri =  AllTerritoryArray[24];
 		}
 		
-		if(x>1553 && y>621 && x<1686 && y<705) {
+		if(x>1553 && y>270 && x<1686 && y<354) {
 			returnTerri =  AllTerritoryArray[25];
 		}
 		
-		if(x>1535 && y>732 && x<1645 && y<835) {
+		if(x>1535 && y>140 && x<1645 && y<243) {
 			returnTerri =  AllTerritoryArray[26];
 		}
 		
-		if(x>1608 && y>854 && x<1740 && y<927) {
+		if(x>1608 && y>48 && x<1740 && y<121) {
 			returnTerri =  AllTerritoryArray[27];
 		}
 		
-		if(x>1755 && y>721 && x<1847 && y<981) {
+		if(x>1755 && y>94 && x<1847 && y<254) {
 			returnTerri =  AllTerritoryArray[28];
 		}
 		
-		if(x>1663 && y>722 && x<1734 && y<835) {
+		if(x>1663 && y>140 && x<1734 && y<253) {
 			returnTerri =  AllTerritoryArray[29];
 		}
 		
-		if(x>1708 && y>592 && x<1807 && y<705) {
+		if(x>1708 && y>270 && x<1807 && y<383) {
 			returnTerri =  AllTerritoryArray[30];
 		}
 		
-		if(x>1684 && y>463 && x<1856 && y<575) {
+		if(x>1684 && y>400 && x<1856 && y<512) {
 			returnTerri =  AllTerritoryArray[31];
 		}
 		
-		if(x>1625 && y>390 && x<1705 && y<440) {
+		if(x>1625 && y>535 && x<1705 && y<585) {
 			returnTerri =  AllTerritoryArray[32];
 		}
 		
-		if(x>1660 && y>228 && x<1804 && y<365) {
+		if(x>1660 && y>610 && x<1804 && y<747) {
 			returnTerri =  AllTerritoryArray[33];
 		}
 		
-		if(x>1529 && y>315 && x<1625 && y<379) {
+		if(x>1529 && y>596 && x<1625 && y<660) {
 			returnTerri =  AllTerritoryArray[34];
 		}
 		
-		if(x>1543 && y>154 && x<1633 && y<279) {
+		if(x>1543 && y>696 && x<1633 && y<821) {
 			returnTerri =  AllTerritoryArray[35];
 		}
 		
-		if(x>1448 && y>168 && x<1528 && y<288) {
+		if(x>1448 && y>687 && x<1528 && y<807) {
 			returnTerri =  AllTerritoryArray[36];
 		}
 		
-		if(x>1385 && y>45 && x<1483 && y<153) {
+		if(x>1385 && y>822 && x<1483 && y<930) {
 			returnTerri =  AllTerritoryArray[37];
 		}
 		
-		if(x>1310 && y>171 && x<1424 && y<233) {
+		if(x>1310 && y>742 && x<1424 && y<804) {
 			returnTerri =  AllTerritoryArray[38];
 		}
 		
-		if(x>1347 && y>257 && x<1428 && y<353) {
+		if(x>1347 && y>622 && x<1428 && y<718) {
 			returnTerri =  AllTerritoryArray[39];
 		}
 		
-		if(x>233 && y>261 && x<1324 && y<353) {
+		if(x>1233 && y>622 && x<1324 && y<714) {
 			returnTerri =  AllTerritoryArray[40];
 		}
 		
-		if(x>1092 && y>259 && x<1215 && y<321) {
+		if(x>1092 && y>654 && x<1215 && y<716) {
 			returnTerri =  AllTerritoryArray[41];
 		}
 		
-		if(x>1149 && y>122 && x<1297 && y<242) {
+		if(x>1149 && y>733 && x<1297 && y<853) {
 			returnTerri =  AllTerritoryArray[42];
 		}
 		
-		if(x>924 && y>107 && x<1129 && y<231) {
+		if(x>924 && y>744 && x<1129 && y<868) {
 			returnTerri =  AllTerritoryArray[43];
 		}
 		
-		if(x>938 && y>260 && x<1067 && y<326) {
+		if(x>938 && y>649 && x<1067 && y<715) {
 			returnTerri =  AllTerritoryArray[44];
 		}
 		
-		if(x>815 && y>203 && x<918 && y<292) {
+		if(x>815 && y>683 && x<918 && y<772) {
 			returnTerri =  AllTerritoryArray[45];
 		}
 		
-		if(x>968 && y>352 && x<1148 && y<425) {
+		if(x>968 && y>550 && x<1148 && y<623) {
 			returnTerri =  AllTerritoryArray[46];
 		}
 
